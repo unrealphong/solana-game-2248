@@ -1,9 +1,9 @@
-import { MenuIcon } from "lucide-react"
-import Link from "next/link"
-import { useRouter } from "next/router"
 import ConnectWalletButton from "@/components/connect-wallet-button"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/utils/cn"
+import { MenuIcon } from "lucide-react"
+import Link from "next/link"
+import { useRouter } from "next/router"
 import { IconButton } from "./ui/icon-button"
 import { Typography } from "./ui/typography"
 
@@ -13,8 +13,12 @@ const MenuItems = [
     href: "/",
   },
   {
-    text: "About",
-    href: "/about",
+    text: "Wallet",
+    href: "/wallet",
+  },
+  {
+    text: "Transfer",
+    href: "/transfer",
   },
 ]
 
